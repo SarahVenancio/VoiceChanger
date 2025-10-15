@@ -5,7 +5,6 @@ import {
   StyleSheet,
   ScrollView,
   TouchableOpacity,
-  Platform,
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { StatusBar } from 'expo-status-bar';
@@ -43,7 +42,7 @@ export default function VoiceChangerScreen() {
     <View style={styles.container}>
       <StatusBar style="light" />
       <LinearGradient
-        colors={[colors.background, '#0F3460']}
+        colors={[colors.background, colors.primary]}
         style={styles.gradient}
       >
         <ScrollView
@@ -56,8 +55,8 @@ export default function VoiceChangerScreen() {
         >
           {/* Header */}
           <View style={styles.header}>
-            <MaterialIcons name="mic" size={32} color={colors.secondary} />
-            <Text style={styles.title}>Mudador de Voz</Text>
+            <MaterialIcons name="mic" size={32} color={colors.accent} />
+            <Text style={styles.title}>Modificador de Voz</Text>
           </View>
 
           {/* Volume Indicator */}
@@ -199,7 +198,7 @@ const styles = StyleSheet.create({
     fontWeight: '500',
   },
   instructionsContainer: {
-    backgroundColor: colors.cardBackground,
+    backgroundColor: 'rgba(26, 26, 26, 0.8)',
     padding: spacing.lg,
     borderRadius: borderRadius.md,
     marginTop: spacing.xl,
@@ -207,7 +206,7 @@ const styles = StyleSheet.create({
   instructionsTitle: {
     fontSize: 18,
     fontWeight: '600',
-    color: colors.text,
+    color: colors.accent,
     marginBottom: spacing.md,
   },
   instructionItem: {
@@ -219,7 +218,7 @@ const styles = StyleSheet.create({
     width: 28,
     height: 28,
     borderRadius: borderRadius.full,
-    backgroundColor: colors.secondary,
+    backgroundColor: colors.accent,
     color: colors.background,
     textAlign: 'center',
     lineHeight: 28,

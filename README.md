@@ -1,75 +1,61 @@
-# Welcome to OnSpace AI
+# Aplicativo Modificador de Voz
 
-Onspace AI empowers anyone to turn ideas into powerful AI applications in minutes—no coding required. Our free, no-code platform enables effortless creation of custom AI apps; simply describe your vision and our agentic AI handles the rest. The onspace-app, built with React Native and Expo, demonstrates this capability—integrating popular third-party libraries to deliver seamless cross-platform performance across iOS, Android, and Web environments.
+Um aplicativo modificador de voz simples e divertido, construído com React Native e Expo. Grave sua voz e aplique diferentes efeitos para transformá-la.
 
-## Getting Started
+## Funcionalidades
 
-### 1. Install Dependencies
+- **Gravação de Áudio**: Grave sua voz facilmente usando o microfone do dispositivo.
+- **Aplicação de Efeitos**: Escolha entre uma variedade de efeitos de voz para modificar sua gravação.
+- **Reprodução em Tempo Real**: Ouça o áudio transformado instantaneamente.
+- **Multiplataforma**: Funciona em iOS, Android e na Web, graças ao Expo.
+
+## Começando
+
+### 1. Instale as Dependências
 
 ```bash
 npm install
-# or
+# ou
 yarn install
+# ou
+pnpm install
 ```
 
-### 2. Start the Project
+### 2. Inicie o Projeto
 
-- Start the development server (choose your platform):
+- Inicie o servidor de desenvolvimento (escolha sua plataforma):
 
 ```bash
-npm run start         # Start Expo development server
-npm run android       # Launch Android emulator
-npm run ios           # Launch iOS simulator
-npm run web           # Start the web version
+npm run start         # Inicia o servidor de desenvolvimento do Expo
+npm run android       # Inicia no Android
+npm run ios           # Inicia no iOS
+npm run web           # Inicia a versão web
 ```
 
-- Reset the project (clear cache, etc.):
-
-```bash
-npm run reset-project
-```
-
-### 3. Lint the Code
+### 3. Lint do Código
 
 ```bash
 npm run lint
 ```
 
-## Main Dependencies
+## Principais Dependências
 
-- React Native: 0.79.4
-- React: 19.0.0
-- Expo: ~53.0.12
-- Expo Router: ~5.1.0
-- Supabase: ^2.50.0
-- Other commonly used libraries:  
-  - @expo/vector-icons  
-  - react-native-paper  
-  - react-native-calendars  
-  - lottie-react-native  
-  - react-native-webview  
-  - and more
+- React Native
+- React
+- Expo
+- Expo Router
+- Expo AV
 
-For a full list of dependencies, see [package.json](./package.json).
+Para uma lista completa de dependências, consulte o arquivo [package.json](./package.json).
 
-## Development Tools
+## Contribuindo
 
-- TypeScript: ~5.8.3
-- ESLint: ^9.25.0
-- @babel/core: ^7.25.2
+1. Faça um fork deste repositório.
+2. Crie uma nova branch (`git checkout -b feature/sua-feature`).
+3. Faça commit de suas alterações (`git commit -am 'Adiciona nova feature'`).
+4. Envie para a branch (`git push origin feature/sua-feature`).
+5. Abra um Pull Request.
 
-## Contributing
+## Licença
 
-1. Fork this repository
-2. Create a new branch (`git checkout -b main`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is private ("private": true). For collaboration inquiries, please contact the author.
-
----
-
-Feel free to add project screenshots, API documentation, feature descriptions, or any other information as needed.
+Este projeto está licenciado sob a Licença MIT.

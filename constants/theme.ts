@@ -1,15 +1,15 @@
 export const colors = {
-  primary: '#FF6B6B',
-  secondary: '#4ECDC4',
-  accent: '#FFE66D',
-  background: '#1A1A2E',
-  cardBackground: '#16213E',
+  primary: '#0D253F',
+  secondary: '#01B4E4',
+  accent: '#FFD700',
+  background: '#0a0a0a',
+  cardBackground: '#1a1a1a',
   text: '#FFFFFF',
-  textSecondary: '#A0A0A0',
-  success: '#51CF66',
-  error: '#FF6B6B',
+  textSecondary: '#CCCCCC',
+  success: '#28a745',
+  error: '#dc3545',
   recording: '#FF4757',
-  playing: '#5F27CD',
+  playing: '#007bff',
 };
 
 export const spacing = {
